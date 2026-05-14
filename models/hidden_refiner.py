@@ -5,7 +5,6 @@ import torch.nn.functional as F
 
 class HiddenRefiner(nn.Module):
     """
-    Section 3.3:
       refine:       h_{t+1} = frefine(h_t, s_t, gamma, beta, v)
       update_state: s_{t+1} = g(s_t, h_{t+1})
     """
