@@ -3,7 +3,7 @@ import torch.nn as nn
 
 
 class ValueCritic(nn.Module):
-    """Section 3.4: baseline value function V(s0), trained with MSE loss."""
+    """baseline value function V(s0), trained with MSE loss."""
 
     def __init__(self, state_dim: int):
         super().__init__()
