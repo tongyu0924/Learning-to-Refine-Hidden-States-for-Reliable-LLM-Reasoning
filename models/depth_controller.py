@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 
 class DepthController(nn.Module):
-    """Section 3.4: depth controller pi_d(d | s0). Samples refinement depth from {0, ..., max_depth}."""
+    """depth controller pi_d(d | s0). Samples refinement depth from {0, ..., max_depth}."""
 
     def __init__(self, state_dim: int, max_depth: int = 4):
         super().__init__()
