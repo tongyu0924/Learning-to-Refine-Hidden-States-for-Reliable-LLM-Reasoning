@@ -3,7 +3,7 @@ import torch.nn as nn
 
 
 class InitialStateExtractor(nn.Module):
-    """Section 3.2: s0 = fextract(h0). Attention-pooling over h0 followed by MLP projection."""
+    """s0 = fextract(h0). Attention-pooling over h0 followed by MLP projection."""
 
     def __init__(self, hidden_size: int, state_dim: int):
         super().__init__()
