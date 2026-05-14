@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 
 class ActionController(nn.Module):
-    """Section 3.3: action controller pi_a(a_t | s_t). Outputs gamma (scale), beta (shift), v (direction)."""
+    """action controller pi_a(a_t | s_t). Outputs gamma (scale), beta (shift), v (direction)."""
 
     def __init__(self, state_dim: int, action_dim: int = 64, max_scale: float = 1.2):
         super().__init__()
