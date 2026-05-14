@@ -123,7 +123,7 @@ class HiddenRLTrainer:
         lp, kl = self._logp_and_kl(logits, ref_logits, attention_mask, labels)
         return float(lp.item()), float(kl.item())
 
-    # ── shaped return (Section 3.4) ──────────────────────────────
+    # ── shaped return ──────────────────────────────
 
     def _shaped_return(
         self,
