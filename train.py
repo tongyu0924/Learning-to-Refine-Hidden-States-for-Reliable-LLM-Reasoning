@@ -24,13 +24,13 @@ if __name__ == "__main__":
 
     trainer.train(
         output_dir="./gsm_hard_hidden_rl",
-        epochs=15,
+        epochs=50,
         batch_size=2,
         lr=1e-6,
         max_length=512,
         val_ratio=0.1,
         seed=42,
-        max_samples=5000,
+        max_samples=None,
     )
 
     trainer.evaluate(
