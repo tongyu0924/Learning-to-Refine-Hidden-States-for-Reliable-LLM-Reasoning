@@ -3,7 +3,7 @@ import torch.nn as nn
 
 
 class DecodeBridge(nn.Module):
-    """Section 3.1: fdecode(s_d, h0) = (1 - gate) * h0 + gate * proj(s_d)"""
+    """fdecode(s_d, h0) = (1 - gate) * h0 + gate * proj(s_d)"""
 
     def __init__(self, state_dim: int, hidden_size: int):
         super().__init__()
