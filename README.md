@@ -13,7 +13,7 @@ Large language models show strong reasoning ability, but their internal reasonin
 **ReLAR** is a reinforcement-guided latent refinement framework that iteratively updates hidden representations *before decoding*. Instead of relying on explicit chain-of-thought generation, ReLAR stabilizes and controls reasoning entirely in latent space, achieving higher accuracy with substantially lower inference overhead.
 
 <p align="center">
-  <img src="pipeline.pdf" alt="ReLAR Pipeline" width="700"/>
+  <img src="assests/pipeline.png" alt="ReLAR Pipeline" width="700"/>
 </p>
 
 ---
