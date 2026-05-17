@@ -23,7 +23,7 @@ Large language models show strong reasoning ability, but their internal reasonin
 - **Latent Reasoning Control** — Iteratively refines hidden representations before any output token is generated, enabling fine-grained control over internal reasoning trajectories.
 - **Adaptive Depth Controller** — Dynamically selects the number of refinement steps based on input complexity, allocating more computation to harder examples.
 - **Action Controller** — Learns the direction and magnitude of each refinement step via a policy-gradient objective.
-- **Efficient Inference** — Achieves competitive performance with ~1× inference time compared to CoT (64.9×) and Self-Consistency CoT (116.9×).
+- **Efficient Inference** — Achieves competitive performance at 1× inference time, compared to CoT (64.9×) and Self-Consistency CoT (116.9×).
 - **Broad Coverage** — Evaluated on medical QA, mathematical reasoning, multi-hop QA, and open-ended generation tasks.
 
 ---
