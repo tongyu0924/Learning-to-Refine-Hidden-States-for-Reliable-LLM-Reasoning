@@ -8,7 +8,7 @@
 
 ## Overview
 
-Large language models show strong reasoning ability, but their internal reasoning process can remain unstable in complex multi-step settings — early hidden-state errors may propagate and lead to incorrect predictions.
+Large language models show strong reasoning ability, but their internal reasoning process can remain unstable in complex multi-step settings. Early hidden-state errors may propagate and lead to incorrect predictions.
 
 **ReLAR** is a reinforcement-guided latent refinement framework that iteratively updates hidden representations *before decoding*. Instead of relying on explicit chain-of-thought generation, ReLAR stabilizes and controls reasoning entirely in latent space, achieving higher accuracy with substantially lower inference overhead.
 
