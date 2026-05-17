@@ -215,10 +215,10 @@ trainer = HiddenRLTrainer(model_name="Qwen/Qwen2.5-3B-Instruct", ...)
 | **Adaptive Depth + Direction (Ours)** | **77.67** | **72.54** |
 
 Both the adaptive depth controller and the action controller contribute independently; combining them achieves the best results.
-
+<!-- 
 ---
 
-<!-- ## Citation
+## Citation
 
 If you find this work useful, please cite:
 
