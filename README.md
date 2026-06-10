@@ -190,9 +190,10 @@ trainer.evaluate(
 )
 ```
 
+<!-- 
 ### Using a Different Backbone
 
-ReLAR is backbone-agnostic. Replace `model_name` with any Hugging Face causal LM:
+Replace `model_name` with any Hugging Face causal LM:
 
 ```python
 # LLaMA-1.1B
@@ -201,6 +202,7 @@ trainer = HiddenRLTrainer(model_name="meta-llama/Llama-3.2-1B-Instruct", ...)
 # Qwen-3B
 trainer = HiddenRLTrainer(model_name="Qwen/Qwen2.5-3B-Instruct", ...)
 ```
+-->
 
 ---
 
