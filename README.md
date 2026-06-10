@@ -1,4 +1,4 @@
-# ReLAR: Reinforcement-Guided Latent Refinement for Controllable LLM Reasoning
+# Learning to Refine Hidden States for Reliable LLM Reasoning
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?logo=pytorch)](https://pytorch.org/)
@@ -10,7 +10,7 @@
 
 Large language models show strong reasoning ability, but their internal reasoning process can remain unstable in complex multi-step settings. Early hidden-state errors may propagate and lead to incorrect predictions.
 
-**ReLAR** is a reinforcement-guided latent refinement framework that iteratively updates hidden representations *before decoding*. Instead of relying on explicit chain-of-thought generation, ReLAR stabilizes and controls reasoning entirely in latent space, achieving higher accuracy with substantially lower inference overhead.
+This is a latent refinement framework that uses reinforcement learning to update hidden representations before decoding. Instead of relying on explicit chain-of-thought generation, it controls the reasoning process inside the latent space. This helps improve reasoning stability and accuracy while reducing inference overhead.
 
 <p align="center">
   <img src="assests/pipeline.png" alt="ReLAR Pipeline" width="700"/>
