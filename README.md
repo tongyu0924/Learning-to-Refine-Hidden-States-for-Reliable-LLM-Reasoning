@@ -72,6 +72,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{LM}} + \alpha_{\text{RL}} \cdo
 ---
 
 ## Results
+We report the main results here. Full results across all models and shot settings are available in the paper.
 
 ### Reasoning Benchmarks (Table 1)
 
@@ -86,8 +87,6 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{LM}} + \alpha_{\text{RL}} \cdo
 | Med42-Llama3-8B | 70.65 / 70.74 | 71.89 / 80.14 | 35.62 / 42.93 | 46.23 / 61.59 |
 | MedGemma-4B | 72.45 / 68.52 | 61.18 / 70.32 | 26.03 / 33.20 | 39.48 / 53.29 |
 | **Ours** | **77.67 / 72.54** | 68.45 / 78.23 | **41.06** / 45.58 | **57.50 / 75.23** |
-
-All results in 0-shot setting. See paper for 5-shot results.
 
 ### Open-Ended Generation (Table 2)
 
