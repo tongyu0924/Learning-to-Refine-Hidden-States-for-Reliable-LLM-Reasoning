@@ -149,6 +149,7 @@ pip install -r requirements.txt
 ---
 
 ## Quick Start
+The source code and training scripts will be released upon acceptance of the paper.
 
 ### Training
 
