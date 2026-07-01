@@ -13,7 +13,7 @@ Large language models show strong reasoning ability, but their internal reasonin
 This is a latent refinement framework that uses reinforcement learning to update hidden representations before decoding. Instead of relying on explicit chain-of-thought generation, it controls the reasoning process inside the latent space. This helps improve reasoning stability and accuracy while reducing inference overhead.
 
 <p align="center">
-  <img src="assests/pipeline.png" alt="ReLAR Pipeline" width="700"/>
+  <img src="assests/pipeline.jpg" alt="ReLAR Pipeline" width="700"/>
 </p>
 
 ---
