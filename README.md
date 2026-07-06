@@ -218,7 +218,7 @@ trainer = HiddenRLTrainer(model_name="Qwen/Qwen2.5-3B-Instruct", ...)
 
 | Configuration | Acc. | F1 |
 |---|---|---|
-| No Refinement (SFT only) | 55.02 | 33.54 |
+| No Refinement (SFT only) | 58.10 | 33.54 |
 | Static Refinement (fixed depth, no direction) | 73.01 | 60.84 |
 | Adaptive Depth only | 76.72 | 57.85 |
 | Adaptive Direction only (single-step) | 68.90 | 57.12 |
