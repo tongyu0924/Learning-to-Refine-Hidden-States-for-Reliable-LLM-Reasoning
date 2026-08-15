@@ -57,7 +57,7 @@ $$a_t = (\gamma_t, \beta_t, \mathbf{v}_t) \sim \pi_a(a_t \mid s_t)$$
 
 where $\mathbf{v}_t$ is the unit update direction and $\gamma_t, \beta_t$ determine the effective magnitude. The hidden state is updated as:
 
-$$h_{t+1} = f_{\text{refine}}(h_t,\, s_t,\, \gamma_t,\, \beta_t,\, \mathbf{v}_t)$$
+$$h_{t+1} = f_{\text{refine}}(h_t, s_t, \gamma_t, \beta_t, \mathbf{v}_t)$$
 
 ### RL Reward
 
